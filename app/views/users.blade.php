@@ -1,6 +1,7 @@
 @extends('master')
-
-
+@section('title')
+    Sitio user
+@stop
 
 @section('side')
     <p>Last articles</p>
