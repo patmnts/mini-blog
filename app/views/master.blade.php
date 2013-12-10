@@ -1,18 +1,18 @@
 
 
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 	<head>
 		<meta charset="utf-8">
 		<title>@yield('title') - Mini Blog - </title>
-		<!--{{ Basset::show('master.css') }}-->
+		
         {{HTML::style('template/css/style.css')}}
         {{HTML::style('template/css/bootstrap.css')}}
 	</head>
     <body>
     	<header>
-    		<div class=row>
-    			<div class"col-md-8">Mini Blog</div>
-    			<div class"col-md-4">Logo</div>
+    		<div class="row">
+    			<div class="col-md-8">Mini Blog</div>
+    			<div class="col-md-4">Logo</div>
     		</div>
     	</header>
     	
