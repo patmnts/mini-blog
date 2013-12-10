@@ -4,7 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>@yield('title') - Mini Blog - </title>
-		{{Basset::show('master.css')}}
+		<!--{{ Basset::show('master.css') }}-->
+        {{HTML::style('template/css/style.css')}}
+        {{HTML::style('template/css/bootstrap.css')}}
 	</head>
     <body>
     	<header>
