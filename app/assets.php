@@ -6,9 +6,9 @@
 
 Basset::collection('master', function($collection) {
     // CSS
-    $collection->stylesheet('template/css/style.css');
     $collection->stylesheet('template/css/bootstrap.css');
+    $collection->stylesheet('template/css/style.css');
 })
 ->rawOnEnvironment('local')
 ->apply('CssMin')
-->apply('UriRewriterFilter');
+->apply('UriRewriteFilter');
