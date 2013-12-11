@@ -32,11 +32,15 @@
         </div>
         <aside class="top-sidebar">
             <article>
-                <h2>Menu</h2>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Porfolio</li>
-                    <li>Contact</li>
+                <ul class="nav nav-list">
+                    <th><h4>MENU</h4></th>
+                    <li class="nav-header">Première</li>
+                        <li class="active"><a href="#">Accueil</a></li>
+                        <li><a href="#">Portofiol</a></li>
+                        <li><a href="#">Contact</a></li>
+                    <li class="nav-header">Seconde</li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">souscrire</a></li>
                 </ul>
             </article>
         </aside>
