@@ -1,14 +1,121 @@
 
 body{
+	background-image: url('../images/wild_flowers.png');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
 }
 
-header{
+
+h1{
+  
 }
 
-footer{}
+h2{
+  font-size:6.2em;
+  font-weight:500;
+  color: #000;
+}
 
-#menu{}
+a{
+	text-decoration: none;
+}
 
-.sidebar{}
+a:link, a:visited{
 
-.container{}
+}
+
+a:hover, a:active{
+
+}
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader{
+	width: 100%;
+	float: left;
+	background-color: #666;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;*/
+	margin: 2% 0;
+}
+
+.mainHeader h1 {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
+.mainHeader a img{
+	width: 30%;
+	height: auto;
+	padding-left: 20%;
+	margin: .2% 0 ;
+}
+.mainContent{
+	line-height: 25px;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;
+	padding-left: 5%;
+	/*overflow: hidden;*/
+	
+}
+
+.content{
+	width: 70%;
+	float: left;padding-top: 2%;
+}
+
+.topContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;
+	padding: 3% 5%;
+	margin-top: 2px;
+}
+
+.top-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;
+	padding: 2% 3%;
+	margin: .3% 0 2% 3%;
+}
+
+.bottom-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #FFF;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;
+	margin: .9% 0 2% 3%;
+	padding: 2% 3%;
+}
+
+.mainFooter{
+	width: 100%;
+	float: left;
+	background-color: #666;
+	border-radius: 5px;
+	moz-border-radius:5px;
+	webkit-border-radius:5px;
+	margin: 2% 0;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
