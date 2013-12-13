@@ -81,3 +81,6 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+// declaration
+require app_path().'/assets.php';
