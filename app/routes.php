@@ -20,3 +20,8 @@ Route::get('users', function()
 {
     return View::make('users');
 });
+
+Route::get('/create', function()
+{
+	return View::make('article.create');
+});
