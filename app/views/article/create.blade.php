@@ -15,6 +15,12 @@
 					<!-- Titre Flied -->
 					<p>{{ Form::label('Titre', 'Titre') }}</p>
 					<p>{{ Form::text('Titre') }}</p>
+					<!-- description Flied -->
+					<p>{{ Form::label('Description', 'Description') }}</p>
+					<p>{{ Form::text('Description') }}</p>
+					<!-- Author Flied -->
+					<p>{{ Form::label('Author', 'Author') }}</p>
+					<p>{{ Form::text('Author') }}</p>
 					<!-- Contenu Flied -->
 					<p>{{ Form::label('Contenu', 'Contenu') }}</p>
 					<p>{{ Form::textarea('Contenu') }}</p>
@@ -25,4 +31,3 @@
 		</content>
 	</article>
 @stop
-
