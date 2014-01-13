@@ -5,11 +5,13 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
+		"illuminate/remote": "4.1.*@dev",
 		"jasonlewis/basset": "dev-develop",
 		"natxet/CssMin": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
+			"vendor/illuminate/remote",
 			"app/commands",
 			"app/controllers",
 			"app/models",
