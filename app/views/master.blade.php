@@ -24,7 +24,6 @@
                 <ul class="nav nav-list">
                     <li class="nav-header"><h4>MENU</h4></li>
                         <li class="active"><a href="users"><i class="icon-home"></i> Accueil</a></li>
-                        <li><a href="create"><i class="icon-bookmark"></i> Portfolio</a></li>
                         <li><a href="show"><i class="icon-bookmark"></i> Article</a></li>
                         <li><a href="#"><i class="icon-bookmark"></i> Contact</a></li>
                         <li><a href="#"><i class="icon-dashboard"></i> Dashboard</a></li>
