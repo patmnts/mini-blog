@@ -28,6 +28,8 @@ Route::get('/create', function()
 	return View::make('article.create');
 });
 
+Route::get('/show', 'ArticleController@show');
+
 Route::post('/create', function()
 {
 	$title=Input::get('Titre');
