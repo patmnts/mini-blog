@@ -70,6 +70,7 @@ a:hover, a:active{
 
 .content{
 	width: 70%;
+	/*height: 500px;*/
 	float: left;padding-top: 2%;
 }
 
@@ -80,6 +81,7 @@ a:hover, a:active{
 	webkit-border-radius:5px;
 	padding: 3% 5%;
 	margin-top: 2px;
+	margin-bottom: 2%;
 }
 
 .top-sidebar{
